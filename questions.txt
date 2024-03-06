@@ -1,0 +1,13 @@
+1. Which sort was faster?
+normal, non-threaded quicksort
+
+2. Was it what you expected?
+threaded quicksort
+
+3. Which one did you expect to be faster and why?
+I had expected the threaded ton be faster due to 
+the increased performance that multi-threading provides
+
+4. What could have effected the results?
+the struct not being as optimized depending on array sizes
+CPU constantly moving from thread to thread
